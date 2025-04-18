@@ -1,0 +1,50 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+.navBtn {
+    padding-right: 8px;
+    border-right: 1px solid grey;
+}
+
+.navbar{
+  padding: 4px 0px;
+}
+
+.roundPic {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,td {
+  border: 1px solid black;
+}
+
+.ampRow {
+  background-color: #eff8ff;
+}
+
+form {
+  display: grid;
+  width: 100%;
+  max-width: 440px;
+  gap: 8px;
+  padding: 16px 80px 40px 40px;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+label,input,select,textarea {
+  width: 100%;
+}
+
+.fitText {
+  width:fit-content;
+}
